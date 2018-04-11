@@ -1,0 +1,63 @@
+.offers__item {
+  margin-right: 26px;
+}
+
+.offers__title {
+  padding-left: 45px;
+  position: relative;
+
+  &--price::before {
+    position: absolute;
+    content: "₽";
+    display: block;
+    background-size: 100% 100%;
+    width: 38px;
+    height: 30px;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    margin-top: -18px;
+    background-color: #e92824;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  &--sale::before {
+    position: absolute;
+    content: "%";
+    display: block;
+    background-size: 100% 100%;
+    width: 38px;
+    height: 30px;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    margin-top: -18px;
+    background-color: #e92824;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+}
+
+.offers__desc {
+  li {
+    transition: all 0.5s;
+  }
+}
+
+.offers__desc:hover {
+  .offers__desc-link {
+    opacity: 1;
+  }
+}
+
+.offers__desc-link {
+  margin-top: 20px;
+  list-style: none;
+  opacity: 0;
+}

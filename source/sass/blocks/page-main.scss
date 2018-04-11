@@ -1,4 +1,23 @@
 .page-main {
   margin: 0;
   padding: 0;
+ /*  background-color: #ececec; */
+}
+
+.page-main__service {
+  @media (min-width: $desktop-width) {
+    @include width-wrapper(1300px);
+    padding: 0 40px;
+  }
+}
+
+.page-main__step-work {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 70px;
+  }
+}
+
+.page-main__question {
+  margin-bottom: 70px;
+  background: linear-gradient(to right, #768a9b 12%, #556776 90%);
 }

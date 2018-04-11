@@ -4,22 +4,192 @@
     <meta charset="utf-8">
     <title>Заголовок</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link href="fonts/oswaldregular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
-    <link href="fonts/oswaldmedium.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+    <!-- <link href="fonts/oswaldregular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+    <link href="fonts/oswaldmedium.woff2" rel="preload" as="font" type="font/woff2" crossorigin> -->
   </head>
   <body>
 
     <header class="page-header  page-header--nojs">
-      <div class="nav">
-
+      <div class="page-header__inner">
+        <div class="page-header__logo">
+          <a href="/" class="page-header__logo-link">
+            <img class="page-header__logo-image" src="img/index/logo4.png" alt="">
+            <span class="page-header__logo-desc">создание сайтов для бизнеса</span>
+          </a>
+        </div>
+        <div class="page-header__nav  nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="">Услуги</a></li>
+            <li class="nav__item"><a href="">Портфолио</a></li>
+            <li class="nav__item"><a href="">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="page-header__phone">
+          <a href="">+7 (499) 390-16-33</a>
+          <a href="">+7 (905) 711-55-93</a>
+        </div>
+        <div class="page-header__btn-quesion">
+          <a class="btn  btn--yellow" href="#">Есть вопрос?</a>
+        </div>
+        <!-- /.nav -->
       </div>
-      <!-- /.nav -->
+      <!-- /.page-header__inner -->
     </header>
 
     <main class="page-main">
+      <div class="page-main__first-screen  first-screen">
+        <div class="first-screen__inner">
+          <div class="first-screen__header">
+            <div class="first-screen__title">
+              <h1>Создание сайтов под ключ</h1>
+              <p>для малого и среднего бизнеса</p>
+            </div>
+            <p class="first-screen__desc"><span class="bg-text bg-text--yellow">Мы создаем уникальные сайты,</span> которые помогут добиться успеха и прибыли в вашей деятельности уже через <span class="bg-text bg-text--yellow">30 дней.</span></p>
+          </div>
+          <div class="first-screen__footer">
+            <a class="form__btn  btn  btn--yellow">Заказать сайт сейчас</a>
+            <a class="form__btn  btn  btn--transparent">Получить бесплатную консультацию</a>
+          </div>
+          <!-- <div class="first-screen__footer  card">
+            <form class="first-screen__form  form">
+              <p class="form__title  form__title-horizontal">
+                Узнайте больше у нашего специалиста
+              </p>
+              <input class="form__input" type="text" name="name" placeholder="Ваше имя">
+              <input class="form__input" type="tel" name="name" placeholder="Ваш телефон">
+              <button class="form__btn  btn  btn--yellow">Получить бесплатную консультацию</button>
+            </form>
+          </div> -->
+        </div>
+      </div>
+      <div class="page-main__service  service">
+        <div class="service__header">
+          <h2 class="service__title">Какие сайты мы создаем?</h2>
+          <p class="service__title-desc">Мы знаем свои возможности и с уверенностью беремся за задачи любой сложности</p>
+        </div>
+        <div class="service__list">
+          <div class="service__item  service__item--lp">
+            <div class="service__item-info">
+              <span class="bg-text  bg-text--yellow">Для старта</span>
+              <h3 class="service__item-title">Landing page (сайт визитка)</h3>
+              <p class="service__item-desc">Подойдет Вам, если необходимо за короткое время разместить информацию о новом продукте, о новой акции, быстро привлечь клиентов. </p>
+              <div class="service__item-offers  offers">
+                <div class="offers__item">
+                  <p class="offers__title  offers__title--price">Стоимость <span class="bg-text  bg-text--yellow">от 40 000 ₽</span></p>
+                  <ul class="offers__desc">
+                    <li>до 10 блоков</li>
+                    <li>логически верно расоложенны блоки</li>
+                    <li>функциональный дизайн</li>
+                    <li>и многое другое</li>
+                    <li class="offers__desc-link"><a class="btn  btn--red" href="#">подробнее</a></li>
+                  </ul>
+                </div>
+                <div class="offers__item">
+                  <p class="offers__title  offers__title--sale">Получите подарки при заказе</p>
+                  <ul class="offers__desc">
+                    <li>домен в зоне .ru</li>
+                    <li>1 год хостинга</li>
+                    <li>скидка 20% на создание рекламной кампании</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="service__item-img">
+              <img src="img/index/lp_offer.jpg" alt="">
+              <a class="service__item-btn  btn  btn--yellow" href="#">Узнать подробнее</a>
+            </div>
+          </div>
 
+          <div class="service__item  service__item--lp">
+            <div class="service__item-info">
+              <span class="bg-text  bg-text--yellow">Для увеличения покупателей</span>
+              <a href="#"><h3 class="service__item-title">Интернет &#8212; магазин</h3></a>
+              <p class="service__item-desc">Хотите продатвать товар в интернете, тогда интернет-магазин для Вас!</p>
+              <div class="service__item-offers  offers">
+                <div class="offers__item">
+                  <p class="offers__title  offers__title--price">Стоимость <span class="bg-text  bg-text--yellow">от 80 000 ₽</span></p>
+                  <ul class="offers__desc">
+                    <li>уникальный дизайн</li>
+                    <li>интеграция с 1с</li>
+                    <li>онлайн оплата</li>
+                    <li>и многое другое</li>
+                    <li class="offers__desc-link"><a class="btn  btn--yellow" href="#">подробнее</a></li>
+                  </ul>
+                </div>
+                <div class="offers__item">
+                  <p class="offers__title  offers__title--sale">Получите подарки при заказе</p>
+                  <ul class="offers__desc">
+                    <li>домен в зоне .ru</li>
+                    <li>1 год хостинга</li>
+                    <li>скидка 20% на создание рекламной кампании</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="service__item-img">
+              <img src="img/index/inernet_offer.jpg" alt="">
+              <a class="service__item-btn  btn  btn--yellow" href="#">Узнать подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.service -->
+      <div class="page-main__step-work  step-work">
+        <div class="step-work__inner">
+          <h4 class="step-work__title">Как мы работаем</h4>
+          <div class="step-work__list">
+            <div class="step-work__item">
+              <span class="step-work__num  bg-text  bg-text--red">01.</span>
+              <p class="step-work__text  step-work__text--one">Вы оформляете заявку по телефону или заказываете обратный звонок</p>
+            </div>
+            <div class="step-work__item">
+              <span class="step-work__num  bg-text  bg-text--red">02.</span>
+              <p class="step-work__text  step-work__text--two">Мы отправляем Вам на Email договор и бриф на разработку дизайна сайта</p>
+            </div>
+            <div class="step-work__item">
+              <span class="step-work__num  bg-text  bg-text--red">03.</span>
+              <p class="step-work__text  step-work__text--three">Мы отправляем Вам счет на предоплату в соответствии с заключенным договором</p>
+            </div>
+            <div class="step-work__item">
+              <span class="step-work__num  bg-text  bg-text--red">04.</span>
+              <p class="step-work__text  step-work__text--four">По факту поступления денег на счет и заполненного бриф-листа, мы приступаек к основным работам</p>
+            </div>
+            <div class="step-work__item">
+              <span class="step-work__num  bg-text  bg-text--red">05.</span>
+              <p class="step-work__text  step-work__text--five">Регистрируем сайт в поисковых системах Yandex.ru, Google.com</p>
+            </div>
+            <div class="step-work__item">
+              <span class="step-work__num  bg-text  bg-text--red">06.</span>
+              <p class="step-work__text  step-work__text--six">Консультируем и помогаем Вам по вопросам работы с сайтом в течение 6 месяцев (7 дней в неделю)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.step-work -->
+      <div class="page-main__question  question-block">
+        <div class="question-block__inner">
+          <div class="question-block__info">
+            <h4 class="question-block__title">Остались вопросы?</h4>
+            <p class="question-block__desc">задайте их нашему специалисту</p>
+            <p class="question-block__text">по телефону:</p>
+            <a class="question-block__tel  bg-text  bg-text--yellow" href="">+7 (499) 390-16-33</a>
+          </div>
+
+          <div class="question-block__form  card">
+            <form class="first-screen__form  form  form--vertical">
+              <p class="form__title">или оставьте заявку</p>
+              <input class="form__input" type="text" name="name" placeholder="Ваше имя">
+              <input class="form__input" type="tel" name="name" placeholder="Ваш телефон">
+              <button class="form__btn  btn  btn--yellow">Получить бесплатную консультацию</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /.question-block -->
     </main>
+    <!-- /.page-main -->
 
     <footer class="page-footer">
 

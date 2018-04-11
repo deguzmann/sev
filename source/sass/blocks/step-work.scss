@@ -1,0 +1,147 @@
+.step-work__inner {
+  @media (min-width: $desktop-width) {
+    @include width-wrapper(1300px);
+    padding: 0 40px;
+  }
+}
+
+.step-work__title{
+  @media (min-width: $desktop-width) {
+    font-size: 50px;
+    font-weight: 600;
+  }
+}
+
+.step-work__list {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.step-work__item {
+  @media (min-width: $desktop-width) {
+    margin: 35px 0;
+    width: 350px;
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+
+.step-work__text {
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding-left: 54px;
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+
+    &--one::before {
+      position: absolute;
+      content: "01";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--one::before {
+      position: absolute;
+      content: "01";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--two::before {
+      position: absolute;
+      content: "02";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--three::before {
+      position: absolute;
+      content: "03";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--four::before {
+      position: absolute;
+      content: "04";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--five::before {
+      position: absolute;
+      content: "05";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--six::before {
+      position: absolute;
+      content: "06";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.step-work__num {
+  position: absolute;
+  z-index: 3;
+  top: 6px;
+  font-size: 20px;
+}

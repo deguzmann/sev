@@ -1,0 +1,43 @@
+.form {
+  &--vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .form__btn:last-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.form__input {
+  margin: 10px;
+  padding: 10px 25px;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  background-clip: border-box;
+  background-color: #ebebeb;
+  box-sizing: border-box;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  appearance: none;
+  transition: .2s ease-out;
+}
+
+
+.form__title {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+.form__title-horizontal {
+  padding: 24px 0 34px;
+}
+
+.form__btn:last-child {
+  margin-left: 30px;
+}
