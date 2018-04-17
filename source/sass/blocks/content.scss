@@ -1,0 +1,20 @@
+.content {
+
+}
+
+.content__title {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+    width: 650px;
+    font-size: 60px;
+    font-weight: 600;
+  }
+}
+
+.content__title-desc {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 100px;
+    width: 400px;
+    font-weight: 100;
+  }
+}

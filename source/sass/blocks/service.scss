@@ -33,6 +33,7 @@
 
 .service__item-info {
   margin-right: 70px;
+  width: 800px;
 }
 
 .service__item-title {
@@ -54,6 +55,7 @@
 
     &:hover img {
       box-shadow: -20px 20px 13px 0 rgba(0,0,0,.2);
+      transform: translateY(-4px);
     }
   }
 }

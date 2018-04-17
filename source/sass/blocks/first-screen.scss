@@ -3,6 +3,14 @@
     margin-bottom: 100px;
     background-image: url("../img/index/bg-firstscreen.png");
   }
+
+  &--start {
+    background: linear-gradient(to right, #151e3d 0, #161f3e 100%);
+    background-image: url("../img/start/invest-blue-large.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
 }
 
 .first-screen__inner {

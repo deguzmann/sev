@@ -5,7 +5,7 @@
 .question-block__inner {
   @media (min-width: $desktop-width) {
     @include width-wrapper(1300px);
-    padding: 20px 40px 60px;
+    padding: 20px 40px 80px;
     display: flex;
     justify-content: space-between;
   }

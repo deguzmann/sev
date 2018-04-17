@@ -1,3 +1,78 @@
 .page-footer {
-  background-color: #ffffff;
+  background-color: #ececec;
+
+  h5 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+}
+
+.page-footer__inner {
+  @media (min-width: $desktop-width) {
+    @include width-wrapper(1300px);
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.page-footer__info {
+  @media (min-width: $desktop-width) {
+    width: 450px;
+  }
+}
+
+.page-footer__service {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    color: #74a3c7;
+  }
+
+  a:hover {
+    color: #333333;
+  }
+}
+
+.page-footer__logo {
+  @media (min-width: $desktop-width) {
+    width: 100px;
+  }
+}
+
+.page-footer__contact {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+.page-footer__tel {
+  color: #333333;
+
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+.page-footer__mail {
+  color: #333333;
+
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+.page-footer__btn {
+  @media (min-width: $desktop-width) {
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
 }

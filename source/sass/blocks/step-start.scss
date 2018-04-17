@@ -1,0 +1,161 @@
+.step-start {
+
+}
+
+.step-start__inner {
+}
+
+.step-start__title{
+  @media (min-width: $desktop-width) {
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 130px;
+    margin-top: 0;
+    width: 500px;
+    line-height: 70px;
+  }
+}
+
+.step-start__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+
+  li {
+    border-left: 4px solid #ffdd2d;
+    padding-left: 18px;
+
+    @media (min-width: $desktop-width) {
+      font-size: 22px;
+      width: 600px;
+      line-height: 34px;
+      margin-bottom: 30px;
+      font-weight: 300;
+    }
+  }
+  li:hover .step-start__info {
+    opacity: 1;
+    transition: opacity 0.9s;
+  }
+}
+
+.step-start__item {
+  @media (min-width: $desktop-width) {
+    margin: 35px 0 150px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+
+.step-start__title {
+  @media (min-width: $desktop-width) {
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 130px;
+    margin-top: 0;
+    width: 600px;
+    line-height: 70px;
+
+    &--one::before {
+      position: absolute;
+      content: "01";
+      width: 100px;
+      left: 0;
+      top: 26px;
+      font-size: 280px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--two::before {
+      position: absolute;
+      content: "02";
+      width: 100px;
+      left: 0;
+      top: 26px;
+      font-size: 280px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--three::before {
+      position: absolute;
+      content: "03";
+      width: 100px;
+      left: 0;
+      top: 26px;
+      font-size: 280px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--four::before {
+      position: absolute;
+      content: "04";
+      width: 100px;
+      left: 0;
+      top: 26px;
+      font-size: 280px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--five::before {
+      position: absolute;
+      content: "05";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+
+    &--six::before {
+      position: absolute;
+      content: "06";
+      width: 100px;
+      left: 0;
+      top: 0;
+      font-size: 120px;
+      color: #efefef;
+      z-index: -1;
+      font-weight: 600;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.step-start__num {
+  position: absolute;
+  z-index: 3;
+  top: 48px;
+  font-size: 20px;
+}
+
+.step-start__list {
+
+}
+
+.step-start__info {
+  opacity: 0;
+}
